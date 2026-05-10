@@ -3,7 +3,7 @@ local Modules = ReplicatedStorage:WaitForChild('Modules')
 local src = Modules:WaitForChild('src')
 local Models = ReplicatedStorage:WaitForChild('Models')
 
-local Maid = require(Modules.Knit.Util.Maid)
+local Maid = require(Modules.Maid)
 local FallItems = Models.FallItems
 local logger = require(src.utils.Logger)
 

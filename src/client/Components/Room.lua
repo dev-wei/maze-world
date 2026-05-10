@@ -5,7 +5,7 @@ local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local Modules = ReplicatedStorage:WaitForChild('Modules')
 local logger = require(Modules.src.utils.Logger)
 local clientSrc = game:GetService('StarterPlayer'):WaitForChild('StarterPlayerScripts').clientSrc
-local Maid = require(Modules.Knit.Util.Maid)
+local Maid = require(Modules.Maid)
 
 local TouchItem = require(Modules.src.TouchItem)
 local M = require(Modules.M)

@@ -120,38 +120,44 @@
                 "src": {
                     "$path": "src/common"
                 },
-                "Roact": {
-                    "$path": "modules/roact/src"
+                "_Index": {
+                    "$path": "Packages/_Index"
                 },
-                "M": {
-                    "$path": "modules/moses/moses_min.lua"
+                "Roact": {
+                    "$path": "Packages/Roact.lua"
                 },
                 "Rodux": {
-                    "$path": "modules/rodux/src"
-                },
-                "DataStore2": {
-                    "$path": "modules/datastore2/DataStore2"
+                    "$path": "Packages/Rodux.lua"
                 },
                 "RoactRodux": {
-                    "$path": "modules/roact-rodux/src"
+                    "$path": "Packages/RoactRodux.lua"
+                },
+                "DataStore2": {
+                    "$path": "Packages/DataStore2.lua"
                 },
                 "Promise": {
-                    "$path": "modules/promise2/lib"
-                },
-                "RoactMaterial": {
-                    "$path": "modules/roact-material/src"
-                },
-                "RoactAnimate": {
-                    "$path": "modules/roact-animate/src"
+                    "$path": "Packages/Promise.lua"
                 },
                 "t": {
-                    "$path": "modules/t/lib"
+                    "$path": "Packages/t.lua"
                 },
                 "ZonePlus": {
-                    "$path": "modules/HDAdmin/Projects/Zone+/src"
+                    "$path": "Packages/ZonePlus.lua"
                 },
                 "Knit": {
-                    "$path": "modules/knit/src/Knit"
+                    "$path": "Packages/Knit.lua"
+                },
+                "M": {
+                    "$path": "vendor/moses_min.lua"
+                },
+                "RoactMaterial": {
+                    "$path": "vendor/roact-material"
+                },
+                "RoactAnimate": {
+                    "$path": "vendor/roact-animate"
+                },
+                "Maid": {
+                    "$path": "vendor/Maid.lua"
                 }
             },
             "HotReloadServer": {
