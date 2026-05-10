@@ -108,16 +108,17 @@ There is also unfinished chest model `box.blend`.
 -   [VintageCube](https://github.com/VintageCube/VintageCube)
 -   [World Messages](https://github.com/two-moons/world-messages/blob/master/src/Components/Thumbnail.lua) Nice user thunbnails
 
-# Code checkout with Sourcetree app
+# Code checkout
 
-When checking out this repo, submodules should also downloaded.
-
--   Download and install [Sourctree](https://www.sourcetreeapp.com/)
--   Check "Perform submodule actions recursively" from Preferences->Git window
--   Checkout code (now it should also download submodules into modules folder)
+After cloning, install dependencies:
+```bash
+wally install
+npm i
+```
 
 # How do I get set up?
 
+-   `wally install` - to download Roblox library dependencies
 -   `npm i` - to load prettier and prettier-lua (needed for VS Code)
 -   run script `./script/build-and-open.sh`. Game.rbxlx is built using rojo. Currently every model is inside `raw-assets/game-models-and-place.rbxlx`. And after editing and saving you need to run `remodel run get-models.lua`, that saves every model to separate file. And rojo syncs it to your running Game.rblx.
 -   Configure VS Code and start Rojo (from VS Code footer)
@@ -126,6 +127,7 @@ When checking out this repo, submodules should also downloaded.
 # Tools
 
 -   [Rojo](https://github.com/Roblox/rojo), a build system
+-   [Wally](https://wally.run), a package manager
 -   [Foreman](https://github.com/Roblox/foreman), a toolchain manager
 -   [Remodel](https://github.com/Roblox/remodel), a deployment manager and multitool
 -   [Tarmac](https://github.com/Roblox/tarmac), an asset manager
