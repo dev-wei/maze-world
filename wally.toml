@@ -1,0 +1,15 @@
+[package]
+name = "maze-world/maze-world"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Roact = "roblox/roact@1.4.4"
+Rodux = "roblox/rodux@3.0.0"
+RoactRodux = "roblox/roact-rodux@0.5.1"
+Promise = "evaera/promise@4.0.0"
+t = "osyrisrblx/t@3.1.1"
+Knit = "sleitnick/knit@1.7.0"
+DataStore2 = "stoozey/datastore2@1.4.4"
+ZonePlus = "ddust1n/zoneplus@3.2.5"
